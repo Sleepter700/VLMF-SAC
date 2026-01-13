@@ -20,3 +20,4 @@ export default function ImageReveal({ children, delay = 0 }: ImageRevealProps) {
   );
 }
 
+

@@ -1,7 +1,7 @@
 // Site configuration
 export const SITE = {
-  title: 'AstroFlow',
-  description: 'Leading provider of optimized logistics and manufacturing solutions with state-of-the-art facilities and industry expertise.',
+  title: 'VLM&F Asociados SAC',
+  description: 'iNGENIERIA DE PRESICIÓN Y SOLUCIONES INDUSTRIALES',
   url: 'https://yourdomain.com',
   author: 'AstroFlow',
 } as const;
