@@ -3,16 +3,16 @@ export const SITE = {
   title: 'VLM&F Asociados SAC',
   description: 'iNGENIERIA DE PRESICIÓN Y SOLUCIONES INDUSTRIALES',
   url: 'https://yourdomain.com',
-  author: 'AstroFlow',
+  author: 'Sleepter',
 } as const;
 
 export const NAVIGATION = [
-  { name: 'Home', href: '/' },
-  { name: 'Capabilities', href: '/capabilities' },
-  { name: 'Use Cases', href: '/use-cases' },
-  { name: 'Facilities', href: '/facilities' },
-  { name: 'Request Quote', href: '/rfq' },
-  { name: 'Documentation', href: '/documentation' },
+  { name: 'Inicio', href: '/' },
+  { name: 'Servicios', href: '/capabilities' },
+  { name: 'Casos de Éxito', href: '/use-cases' },
+  { name: 'Especialidades', href: '/facilities' },
+  { name: 'Presupuesto', href: '/rfq' },
+  { name: 'Contacto', href: '/documentation' },
 ] as const;
 
 export const SOCIAL_LINKS = {
