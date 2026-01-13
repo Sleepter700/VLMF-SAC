@@ -35,7 +35,7 @@ export default function MobileMenu() {
                   href="/rfq"
                   className="block text-center px-6 py-3 text-sm font-semibold text-white bg-linear-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 rounded-lg shadow-md transition-all"
                 >
-                  Request Quote
+                  Cotizar Ahora
                 </a>
               </Dialog.Close>
             </div>
