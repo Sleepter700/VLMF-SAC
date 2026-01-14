@@ -105,7 +105,7 @@ export default function UseCaseTabs({ useCases }: Props) {
                         <AlertCircle className="w-6 h-6 text-red-600 shrink-0 mt-0.5" />
                         <div>
                           <h3 className="text-lg font-bold text-red-900 mb-2">
-                            Challenge
+                            Desafío
                           </h3>
                           <p className="text-gray-700 leading-relaxed">
                             {useCase.challenge}

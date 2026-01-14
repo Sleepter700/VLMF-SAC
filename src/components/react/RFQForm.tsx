@@ -14,7 +14,7 @@ export default function RFQForm() {
     console.log('Form submitted:', data);
     
     // Show success message
-    alert('Thank you for your request! We will contact you within 24 hours.');
+    alert('¡Gracias por su solicitud! Nos pondremos en contacto con usted dentro de 24 horas.');
     form.reset();
   };
 
@@ -27,7 +27,7 @@ export default function RFQForm() {
             <User className="w-5 h-5 text-white" />
           </div>
           <h2 className="text-2xl font-bold text-gray-900">
-            Contact Information
+            Información de Contacto
           </h2>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -36,7 +36,7 @@ export default function RFQForm() {
               htmlFor="firstName"
               className="block text-sm font-medium text-gray-700 mb-2"
             >
-              First Name <span className="text-red-500">*</span>
+              Nombre <span className="text-red-500">*</span>
             </Label.Root>
             <input
               type="text"
@@ -51,7 +51,7 @@ export default function RFQForm() {
               htmlFor="lastName"
               className="block text-sm font-medium text-gray-700 mb-2"
             >
-              Last Name <span className="text-red-500">*</span>
+              Apellido <span className="text-red-500">*</span>
             </Label.Root>
             <input
               type="text"
@@ -66,7 +66,7 @@ export default function RFQForm() {
               htmlFor="email"
               className="block text-sm font-medium text-gray-700 mb-2"
             >
-              Email Address <span className="text-red-500">*</span>
+              Dirección de Correo Electrónico <span className="text-red-500">*</span>
             </Label.Root>
             <input
               type="email"
@@ -81,7 +81,7 @@ export default function RFQForm() {
               htmlFor="phone"
               className="block text-sm font-medium text-gray-700 mb-2"
             >
-              Phone Number <span className="text-red-500">*</span>
+              Número de Teléfono <span className="text-red-500">*</span>
             </Label.Root>
             <input
               type="tel"
@@ -101,7 +101,7 @@ export default function RFQForm() {
             <Building2 className="w-5 h-5 text-white" />
           </div>
           <h2 className="text-2xl font-bold text-gray-900">
-            Company Information
+            Información de la Empresa
           </h2>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -110,7 +110,7 @@ export default function RFQForm() {
               htmlFor="company"
               className="block text-sm font-medium text-gray-700 mb-2"
             >
-              Company Name <span className="text-red-500">*</span>
+              Nombre de la Empresa <span className="text-red-500">*</span>
             </Label.Root>
             <input
               type="text"
@@ -125,7 +125,7 @@ export default function RFQForm() {
               htmlFor="industry"
               className="block text-sm font-medium text-gray-700 mb-2"
             >
-              Industry <span className="text-red-500">*</span>
+              Industria <span className="text-red-500">*</span>
             </Label.Root>
             <select
               id="industry"
@@ -133,14 +133,14 @@ export default function RFQForm() {
               required
               className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent transition"
             >
-              <option value="">Select an industry</option>
-              <option value="ecommerce">E-Commerce & Retail</option>
-              <option value="healthcare">Healthcare & Pharmaceuticals</option>
-              <option value="automotive">Automotive & Manufacturing</option>
-              <option value="technology">Technology & Electronics</option>
-              <option value="consumer-goods">Consumer Goods</option>
-              <option value="food-beverage">Food & Beverage</option>
-              <option value="other">Other</option>
+              <option value="">Selecciona una industria</option>
+              <option value="ecommerce">E-Commerce y Retail</option>
+              <option value="healthcare">Salud y Farmacéuticos</option>
+              <option value="automotive">Automotriz y Manufactura</option>
+              <option value="technology">Tecnología y Electrónicos</option>
+              <option value="consumer-goods">Bienes de Consumo</option>
+              <option value="food-beverage">Alimentos y Bebidas</option>
+              <option value="other">Otro</option>
             </select>
           </div>
         </div>
@@ -153,22 +153,22 @@ export default function RFQForm() {
             <Briefcase className="w-5 h-5 text-white" />
           </div>
           <h2 className="text-2xl font-bold text-gray-900">
-            Service Requirements
+            Requisitos de Servicio
           </h2>
         </div>
         <div className="space-y-6">
           <div>
             <Label.Root className="block text-sm font-medium text-gray-700 mb-3">
-              Services Needed <span className="text-red-500">*</span>
+              Servicios Necesarios <span className="text-red-500">*</span>
             </Label.Root>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {[
-                { id: 'warehousing', label: 'Warehousing & Storage', icon: Warehouse },
-                { id: 'manufacturing', label: 'Manufacturing Services', icon: Factory },
-                { id: 'transportation', label: 'Transportation & Distribution', icon: Truck },
-                { id: 'supply-chain', label: 'Supply Chain Management', icon: Network },
-                { id: 'value-added', label: 'Value-Added Services', icon: Wrench },
-                { id: 'technology', label: 'Technology Integration', icon: Cpu },
+                { id: 'warehousing', label: 'Almacenamiento y Depósito', icon: Warehouse },
+                { id: 'manufacturing', label: 'Servicios de Manufactura', icon: Factory },
+                { id: 'transportation', label: 'Transporte y Distribución', icon: Truck },
+                { id: 'supply-chain', label: 'Gestión de Cadena de Suministro', icon: Network },
+                { id: 'value-added', label: 'Servicios de Valor Agregado', icon: Wrench },
+                { id: 'technology', label: 'Integración Tecnológica', icon: Cpu },
               ].map((service) => {
                 const IconComponent = service.icon;
                 return (
@@ -208,7 +208,7 @@ export default function RFQForm() {
                 className="flex items-center text-sm font-medium text-gray-700 mb-2"
               >
                 <Calendar className="w-4 h-4 mr-2 text-gray-500" />
-                Timeline <span className="text-red-500 ml-1">*</span>
+                Cronograma <span className="text-red-500 ml-1">*</span>
               </Label.Root>
               <div className="relative">
                 <select
@@ -217,11 +217,11 @@ export default function RFQForm() {
                   required
                   className="w-full px-4 py-2 pl-10 border-2 border-gray-300 rounded-lg focus:ring-2 focus:ring-red-500 focus:border-red-500 transition appearance-none bg-white"
                 >
-                  <option value="">Select timeline</option>
-                  <option value="immediate">Immediate (Within 1 month)</option>
-                  <option value="1-3-months">1-3 months</option>
-                  <option value="3-6-months">3-6 months</option>
-                  <option value="6-plus-months">6+ months</option>
+                  <option value="">Selecciona un cronograma</option>
+                  <option value="immediate">Inmediato (Dentro de 1 mes)</option>
+                  <option value="1-3-months">1-3 meses</option>
+                  <option value="3-6-months">3-6 meses</option>
+                  <option value="6-plus-months">6+ meses</option>
                   <option value="flexible">Flexible</option>
                 </select>
                 <Calendar className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400 pointer-events-none" />
@@ -233,14 +233,14 @@ export default function RFQForm() {
                 className="flex items-center text-sm font-medium text-gray-700 mb-2"
               >
                 <Package className="w-4 h-4 mr-2 text-gray-500" />
-                Estimated Monthly Volume
+                Volumen Mensual Estimado
               </Label.Root>
               <div className="relative">
                 <input
                   type="text"
                   id="volume"
                   name="volume"
-                  placeholder="e.g., 10,000 units"
+                  placeholder="ej., 10,000 unidades"
                   className="w-full px-4 py-2 pl-10 border-2 border-gray-300 rounded-lg focus:ring-2 focus:ring-red-500 focus:border-red-500 transition"
                 />
                 <Package className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400 pointer-events-none" />
@@ -253,14 +253,14 @@ export default function RFQForm() {
               htmlFor="details"
               className="block text-sm font-medium text-gray-700 mb-2"
             >
-              Project Details <span className="text-red-500">*</span>
+              Detalles del Proyecto <span className="text-red-500">*</span>
             </Label.Root>
             <textarea
               id="details"
               name="details"
               rows={6}
               required
-              placeholder="Please provide details about your requirements, including product specifications, storage needs, shipping destinations, or any other relevant information..."
+              placeholder="Por favor proporcione detalles sobre sus requisitos, incluyendo especificaciones del producto, necesidades de almacenamiento, destinos de envío, u otra información relevante..."
               className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent transition resize-none"
             />
           </div>
@@ -273,14 +273,14 @@ export default function RFQForm() {
           type="submit"
           className="w-full bg-linear-to-r from-red-600 to-teal-600 text-white px-8 py-4 rounded-lg font-semibold text-lg shadow-lg hover:from-red-700 hover:to-teal-700 transition-all duration-200 hover:shadow-xl active:scale-95 flex items-center justify-center space-x-2"
         >
-          <span>Submit Request</span>
+          <span>Enviar Solicitud</span>
           <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
           </svg>
         </button>
         <p className="text-sm text-gray-500 text-center mt-4">
-          By submitting this form, you agree to our Privacy Policy and Terms of
-          Service.
+          Al enviar este formulario, acepta nuestra Política de Privacidad y Términos de
+          Servicio.
         </p>
       </div>
     </form>

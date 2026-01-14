@@ -8,7 +8,7 @@ export default function MobileMenu() {
       <Dialog.Trigger asChild>
         <button
           className="lg:hidden p-2 text-slate-700 hover:bg-slate-100 rounded-lg transition-colors"
-          aria-label="Toggle menu"
+          aria-label="Alternar menú"
         >
           <Menu className="h-6 w-6" />
         </button>
@@ -16,8 +16,8 @@ export default function MobileMenu() {
       <Dialog.Portal>
         <Dialog.Overlay className="fixed inset-0 bg-black/50 z-50 lg:hidden" />
         <Dialog.Content className="fixed top-0 left-0 right-0 bg-white border-b border-slate-200 z-50 lg:hidden max-h-[85vh] overflow-y-auto">
-          <Dialog.Title className="sr-only">Navigation Menu</Dialog.Title>
-          <Dialog.Description className="sr-only">Main navigation menu</Dialog.Description>
+          <Dialog.Title className="sr-only">Menú de Navegación</Dialog.Title>
+          <Dialog.Description className="sr-only">Menú de navegación principal</Dialog.Description>
           <div className="container mx-auto px-4 py-6 space-y-2">
             {NAVIGATION.map((item) => (
               <Dialog.Close asChild key={item.href}>
@@ -43,7 +43,7 @@ export default function MobileMenu() {
           <Dialog.Close asChild>
             <button
               className="absolute top-4 right-4 p-2 text-slate-700 hover:bg-slate-100 rounded-lg transition-colors"
-              aria-label="Close menu"
+              aria-label="Cerrar menú"
             >
               <X className="h-6 w-6" />
             </button>
