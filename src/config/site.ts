@@ -1,7 +1,7 @@
 // Site configuration
 export const SITE = {
   title: 'VLM&F Asociados SAC',
-  description: 'iNGENIERIA DE PRESICIÓN Y SOLUCIONES INDUSTRIALES',
+  description: 'INGENIERIA DE PRESICIÓN Y SOLUCIONES INDUSTRIALES',
   url: 'https://yourdomain.com',
   author: 'Sleepter',
 } as const;

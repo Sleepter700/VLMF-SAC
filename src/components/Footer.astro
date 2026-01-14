@@ -5,7 +5,7 @@ import { Image } from 'astro:assets';
 import vlmfLogo from '@assets/LOGO-VLM.png';
 ---
 
-<footer class="bg-slate-900 text-slate-300">
+<footer class="bg-slate-800 text-slate-300">
   <div class="container mx-auto px-4 py-16 sm:px-6 lg:px-8">
     <div class="grid grid-cols-1 gap-12 lg:grid-cols-4">
       <!-- Company Info -->
@@ -48,7 +48,7 @@ import vlmfLogo from '@assets/LOGO-VLM.png';
       <!-- Quick Links -->
       <div>
         <h3 class="text-sm font-semibold uppercase tracking-wider text-white mb-6">
-          Quick Links
+          Enlaces Rápidos
         </h3>
         <ul class="space-y-3">
           {NAVIGATION.map((item) => (
@@ -68,31 +68,31 @@ import vlmfLogo from '@assets/LOGO-VLM.png';
       <!-- Services -->
       <div>
         <h3 class="text-sm font-semibold uppercase tracking-wider text-white mb-6">
-          Services
+          Servicios
         </h3>
         <ul class="space-y-3">
           <li>
             <a href="/capabilities" class="text-sm text-slate-400 hover:text-red-400 transition-colors inline-flex items-center group">
               <span class="w-0 group-hover:w-2 h-0.5 bg-red-400 transition-all mr-0 group-hover:mr-2"></span>
-              Warehousing & Storage
+              Almacenamiento y Depósito
             </a>
           </li>
           <li>
             <a href="/capabilities" class="text-sm text-slate-400 hover:text-red-400 transition-colors inline-flex items-center group">
               <span class="w-0 group-hover:w-2 h-0.5 bg-red-400 transition-all mr-0 group-hover:mr-2"></span>
-              Transportation
+              Transporte
             </a>
           </li>
           <li>
             <a href="/capabilities" class="text-sm text-slate-400 hover:text-red-400 transition-colors inline-flex items-center group">
               <span class="w-0 group-hover:w-2 h-0.5 bg-red-400 transition-all mr-0 group-hover:mr-2"></span>
-              Manufacturing
+              Fabricación
             </a>
           </li>
           <li>
             <a href="/capabilities" class="text-sm text-slate-400 hover:text-red-400 transition-colors inline-flex items-center group">
               <span class="w-0 group-hover:w-2 h-0.5 bg-red-400 transition-all mr-0 group-hover:mr-2"></span>
-              Supply Chain Management
+              Gestión de la Cadena de Suministro
             </a>
           </li>
         </ul>
@@ -101,25 +101,25 @@ import vlmfLogo from '@assets/LOGO-VLM.png';
       <!-- Contact -->
       <div>
         <h3 class="text-sm font-semibold uppercase tracking-wider text-white mb-6">
-          Get Started
+          Comenzar
         </h3>
         <ul class="space-y-3 text-sm">
           <li>
             <a href="/rfq" class="text-slate-400 hover:text-red-400 transition-colors inline-flex items-center group">
               <span class="w-0 group-hover:w-2 h-0.5 bg-red-400 transition-all mr-0 group-hover:mr-2"></span>
-              Request a Quote
+              Solicitar una Cotización
             </a>
           </li>
           <li>
             <a href="/facilities" class="text-slate-400 hover:text-red-400 transition-colors inline-flex items-center group">
               <span class="w-0 group-hover:w-2 h-0.5 bg-red-400 transition-all mr-0 group-hover:mr-2"></span>
-              Find a Facility
+              Encontrar una Instalación
             </a>
           </li>
           <li>
             <a href="/documentation" class="text-slate-400 hover:text-red-400 transition-colors inline-flex items-center group">
               <span class="w-0 group-hover:w-2 h-0.5 bg-red-400 transition-all mr-0 group-hover:mr-2"></span>
-              Documentation
+              Documentación
             </a>
           </li>
         </ul>
@@ -129,7 +129,7 @@ import vlmfLogo from '@assets/LOGO-VLM.png';
             href="/rfq"
             class="inline-flex items-center px-6 py-3 text-sm font-semibold text-white bg-linear-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 rounded-lg shadow-lg hover:shadow-xl transition-all"
           >
-            Get Started
+            Comenzar
           </a>
         </div>
       </div>
@@ -139,19 +139,19 @@ import vlmfLogo from '@assets/LOGO-VLM.png';
     <div class="mt-16 pt-8 border-t border-slate-800">
       <div class="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
         <p class="text-sm text-slate-400">
-          &copy; {new Date().getFullYear()} {SITE.author}. All rights reserved.
+          &copy; {new Date().getFullYear()} {SITE.author}. Todos los derechos reservados.
         </p>
         <div class="flex items-center space-x-6 text-sm">
           <a href="/" class="text-slate-400 hover:text-red-400 transition-colors">
-            Privacy Policy
+            Política de Privacidad
           </a>
           <span class="text-slate-700">•</span>
           <a href="/" class="text-slate-400 hover:text-red-400 transition-colors">
-            Terms of Service
+            Términos de Servicio
           </a>
           <span class="text-slate-700">•</span>
           <a href="/" class="text-slate-400 hover:text-red-400 transition-colors">
-            Cookie Policy
+            Política de Cookies
           </a>
         </div>
       </div>
