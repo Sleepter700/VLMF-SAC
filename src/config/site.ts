@@ -2,8 +2,8 @@
 export const SITE = {
   title: 'VLM&F Asociados SAC',
   description: 'INGENIERIA DE PRESICIÓN Y SOLUCIONES INDUSTRIALES',
-  url: 'https://yourdomain.com',
-  author: 'Sleepter',
+  url: 'https://sleepter700.github.io',
+  author: 'VLM&F Asociados SAC',
 } as const;
 
 export const NAVIGATION = [
