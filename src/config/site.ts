@@ -8,11 +8,11 @@ export const SITE = {
 
 export const NAVIGATION = [
   { name: 'Inicio', href: '/' },
-  { name: 'Servicios', href: '/capabilities' },
-  { name: 'Casos de Éxito', href: '/use-cases' },
-  { name: 'Especialidades', href: '/facilities' },
+  { name: 'Metodología', href: '/capabilities' },
+  { name: 'Soluciones', href: '/use-cases' },
+  { name: 'Resultados', href: '/facilities' },
   { name: 'Presupuesto', href: '/rfq' },
-  { name: 'Contacto', href: '/documentation' },
+  //{ name: 'Recursos', href: '/documentation' },
 ] as const;
 
 export const SOCIAL_LINKS = {
