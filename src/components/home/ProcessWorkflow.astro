@@ -20,8 +20,8 @@ interface Step {
 const steps = [
   {
     number: 1,
-    title: "Descubrimiento y Planificación",
-    description: "Analizamos sus operaciones actuales, identificamos puntos débiles y diseñamos una solución personalizada que se alinee con sus objetivos comerciales.",
+    title: "Diagnóstico y Cálculo Estructural",
+    description: "Analizamos las necesidades de carga y dimensiones de su operación para diseñar una estructura sismorresistente optimizada que maximice el espacio libre.",
     image: discoveryImg,
     alt: "Business planning and strategy",
     hoverBorder: "hover:border-red-500",
@@ -30,8 +30,8 @@ const steps = [
   },
   {
     number: 2,
-    title: "Implementación",
-    description: "Nuestro equipo experto configura su infraestructura, integra sistemas y asegura una incorporación sin problemas con mínima interrupción.",
+    title: "Ingeniería de Detalle y Fabricación",
+    description: "Transformamos el diseño en componentes de alta precisión bajo estándares internacionales, asegurando que cada viga y unión cumpla con la normativa técnica.",
     image: implementationImg,
     alt: "Team collaboration and implementation",
     hoverBorder: "hover:border-teal-500",
@@ -40,8 +40,8 @@ const steps = [
   },
   {
     number: 3,
-    title: "Optimización",
-    description: "El monitoreo continuo y las mejoras basadas en datos aseguran que sus operaciones se vuelvan más eficientes y rentables con el tiempo.",
+    title: "Montaje y Ejecución en Sitio",
+    description: "Desplegamos equipos especializados para el izaje y ensamblaje de la infraestructura, garantizando una instalación milimétrica sin interrumpir su entorno.",
     image: optimizationImg,
     alt: "Data analytics and optimization",
     hoverBorder: "hover:border-red-500",
@@ -51,7 +51,7 @@ const steps = [
   {
     number: 4,
     title: "Soporte y Crecimiento",
-    description: "La gestión dedicada de cuentas y el soporte 24/7 le ayudan a escalar operaciones y adaptarse a las cambiantes demandas del mercado.",
+    description: "Finalizamos el proyecto con una revisión exhaustiva y soporte post-obra, asegurando que su nave industrial esté lista para la máxima exigencia operativa.",
     image: supportGrowthImg,
     alt: "Customer support and growth",
     hoverBorder: "hover:border-teal-500",
@@ -70,10 +70,10 @@ const arrowPath = "M9 5l7 7-7 7";
         Cómo Trabajamos
       </div>
       <h2 class="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
-        Nuestro <span class="text-transparent bg-clip-text bg-linear-to-r from-red-600 to-teal-600">Proceso Probado</span>
+        Proyectamos el <span class="text-transparent bg-clip-text bg-linear-to-r from-red-600 to-red-800">Éxito de su Infraestructura</span>
       </h2>
       <p class="text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed">
-        Un enfoque simplificado diseñado para entregar resultados desde el día uno, con optimización continua y soporte.
+        Un método riguroso de ingeniería y montaje diseñado para entregar naves industriales de alta complejidad con precisión técnica y cumplimiento garantizado.
       </p>
     </div>
 
@@ -103,12 +103,14 @@ const arrowPath = "M9 5l7 7-7 7";
                 <p class="text-slate-600 leading-relaxed flex-1">
                   {step.description}
                 </p>
+                <!--
                 <div class={`mt-6 flex items-center text-sm ${step.textColor} font-semibold`}>
                   Aprende más
                   <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d={arrowPath} />
                   </svg>
                 </div>
+                -->
               </div>
             </div>
           </div>
@@ -124,8 +126,8 @@ const arrowPath = "M9 5l7 7-7 7";
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
           </svg>
         </div>
-        <h4 class="text-lg font-semibold text-slate-900 mb-2">Fast Deployment</h4>
-        <p class="text-slate-600">Get up and running in weeks, not months</p>
+        <h4 class="text-lg font-semibold text-slate-900 mb-2">Ejecución Eficiente</h4>
+        <p class="text-slate-600">Despliegue de Alta Velocidad</p>
       </div>
       <div class="text-center">
         <div class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-teal-100 text-teal-600 mb-4">
@@ -133,8 +135,8 @@ const arrowPath = "M9 5l7 7-7 7";
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
           </svg>
         </div>
-        <h4 class="text-lg font-semibold text-slate-900 mb-2">Proven Results</h4>
-        <p class="text-slate-600">Measurable improvements from day one</p>
+        <h4 class="text-lg font-semibold text-slate-900 mb-2">Calidad Certificada</h4>
+        <p class="text-slate-600">Excelencia Estructural</p>
       </div>
       <div class="text-center">
         <div class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-red-100 text-red-600 mb-4">
@@ -142,8 +144,8 @@ const arrowPath = "M9 5l7 7-7 7";
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
           </svg>
         </div>
-        <h4 class="text-lg font-semibold text-slate-900 mb-2">24/7 Support</h4>
-        <p class="text-slate-600">Always available when you need us</p>
+        <h4 class="text-lg font-semibold text-slate-900 mb-2">Continuidad Operativa</h4>
+        <p class="text-slate-600">Soporte Industrial 24/7</p>
       </div>
     </div>
   </div>
