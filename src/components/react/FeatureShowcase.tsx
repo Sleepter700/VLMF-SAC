@@ -1,5 +1,5 @@
 import { motion } from 'motion/react';
-import { Warehouse, Truck, Package, BarChart3, Shield, Headphones } from 'lucide-react';
+import { Warehouse, Truck, Package, BarChart3, Shield, Headphones, Cog, Settings, Construction, Factory, DraftingCompass, ShieldCheck, Headset } from 'lucide-react';
 
 import warehouseImg from '@assets/photo-1553413077-190dd305871c.jpg';
 import truckImg from '@assets/photo-1601584115197-04ecc0da31d7.jpg';
@@ -10,39 +10,39 @@ import headphonesImg from '@assets/photo-1486312338219-ce68d2c6f44d.jpg';
 
 const features = [
   {
-    icon: Warehouse,
-    title: 'Almacenamiento Avanzado',
-    description: 'Instalaciones climatizadas con sistemas de inventario automatizados y seguridad 24/7.',
+    icon: Settings,
+    title: 'Mantenimiento Predictivo',
+    description: 'Revisión general y paradas de planta para maximizar disponibilidad',
     image: warehouseImg,
   },
   {
-    icon: Truck,
-    title: 'Transporte Rápido',
-    description: 'Red logística multimodal que garantiza entrega rápida en todos los destinos.',
+    icon: Construction,
+    title: 'Montaje e Instalaciones',
+    description: 'Izaje y ensamble de estructuras bajo normas de seguridad.',
     image: truckImg,
   },
   {
-    icon: Package,
-    title: 'Manufactura de Calidad',
-    description: 'Producción certificada ISO con ingeniería de precisión y control de calidad.',
+    icon: Factory,
+    title: 'Fabricación Especializada',
+    description: 'Componentes mecánicos con certificación ASME y AWS.',
     image: packageImg,
   },
   {
-    icon: BarChart3,
-    title: 'Análisis en Tiempo Real',
-    description: 'Visibilidad completa de la cadena de suministro con seguimiento y reportes avanzados.',
+    icon: DraftingCompass,
+    title: 'Ingeniería de Proyectos',
+    description: 'Diseño de detalle y optimización de procesos mineros.',
     image: barChart3Img,
   },
   {
-    icon: Shield,
-    title: 'Operaciones Seguras',
-    description: 'Protocolos de seguridad líderes en la industria protegiendo sus valiosos activos.',
+    icon: ShieldCheck,
+    title: 'Gestión de Seguridad',
+    description: 'Operaciones con protocolos SOMA de alto estándar.',
     image: shieldImg,
   },
   {
-    icon: Headphones,
-    title: 'Soporte 24/7',
-    description: 'Equipos dedicados disponibles las 24 horas para asegurar operaciones sin interrupciones.',
+    icon: Headset,
+    title: 'Asistencia Técnica 24/7',
+    description: 'Soporte inmediato en campo para continuidad operativa.',
     image: headphonesImg,
   },
 ];
