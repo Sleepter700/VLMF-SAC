@@ -11,8 +11,6 @@ export const NAVIGATION = [
   //{ name: 'Metodología', href: '/capabilities' },
   //{ name: 'Soluciones', href: '/use-cases' },
   //{ name: 'Resultados', href: '/facilities' },
-  { name: 'Metodología', href: '/documentation' },
-  { name: 'Soluciones', href: '/documentation' },
   { name: 'Resultados', href: '/documentation' },
   { name: 'Presupuesto', href: '/rfq' },
   //{ name: 'Recursos', href: '/documentation' },
