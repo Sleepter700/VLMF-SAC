@@ -1,43 +1,43 @@
-// Constants used throughout the application
+// Constantes utilizadas en toda la aplicación
 
 export const INDUSTRIES = [
-  { id: 'automotive', name: 'Automotive', icon: 'Car' },
-  { id: 'electronics', name: 'Electronics', icon: 'Cpu' },
-  { id: 'food-beverage', name: 'Food & Beverage', icon: 'Utensils' },
-  { id: 'pharmaceuticals', name: 'Pharmaceuticals', icon: 'Pill' },
-  { id: 'retail', name: 'Retail & E-commerce', icon: 'ShoppingBag' },
-  { id: 'industrial', name: 'Industrial Manufacturing', icon: 'Factory' },
+  { id: 'automotive', name: 'Automotriz', icon: 'Car' },
+  { id: 'electronics', name: 'Electrónicos', icon: 'Cpu' },
+  { id: 'food-beverage', name: 'Alimentos y Bebidas', icon: 'Utensils' },
+  { id: 'pharmaceuticals', name: 'Farmacéuticos', icon: 'Pill' },
+  { id: 'retail', name: 'Minorista y Comercio Electrónico', icon: 'ShoppingBag' },
+  { id: 'industrial', name: 'Manufactura Industrial', icon: 'Factory' },
 ] as const;
 
 export const CAPABILITIES = [
   {
     id: 'warehousing',
-    title: 'Warehousing & Distribution',
-    description: 'State-of-the-art warehousing solutions with advanced inventory management.',
+    title: 'Almacenamiento y Distribución',
+    description: 'Soluciones de almacenamiento de vanguardia con gestión avanzada de inventario.',
     icon: 'Warehouse',
   },
   {
     id: 'transportation',
-    title: 'Transportation & Logistics',
-    description: 'Efficient transportation networks ensuring timely delivery.',
+    title: 'Transporte y Logística',
+    description: 'Redes de transporte eficientes que garantizan entregas puntuales.',
     icon: 'Truck',
   },
   {
     id: 'manufacturing',
-    title: 'Manufacturing Support',
-    description: 'Comprehensive manufacturing support services.',
+    title: 'Soporte de Manufactura',
+    description: 'Servicios integrales de soporte de manufactura.',
     icon: 'Cog',
   },
   {
     id: 'supply-chain',
-    title: 'Supply Chain Management',
-    description: 'End-to-end supply chain optimization and management.',
+    title: 'Gestión de Cadena de Suministro',
+    description: 'Optimización y gestión integral de la cadena de suministro.',
     icon: 'Network',
   },
   {
     id: 'technology',
-    title: 'Technology Solutions',
-    description: 'Cutting-edge technology for logistics and manufacturing.',
+    title: 'Soluciones Tecnológicas',
+    description: 'Tecnología de vanguardia para logística y manufactura.',
     icon: 'Code',
   },
 ] as const;
