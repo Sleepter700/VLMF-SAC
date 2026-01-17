@@ -32,11 +32,11 @@ const facilities = [
     manager: 'Sarah Johnson',
     hours: '24/7 Operations',
     features: [
-      'Automated warehouse systems',
-      'Climate-controlled storage',
-      'CNC machining center',
-      'Rail and truck access',
-      '24/7 operations'
+      'Sistemas de almacén automatizados',
+      'Almacenamiento climatizado',
+      'Centro de mecanizado CNC',
+      'Acceso por ferrocarril y camión',
+      'Operaciones 24/7'
     ],
     certifications: ['ISO 9001', 'ISO 14001', 'OSHA Compliant']
   },
@@ -55,11 +55,11 @@ const facilities = [
     manager: 'Michael Chen',
     hours: 'Mon-Sun: 6:00 AM - 10:00 PM',
     features: [
-      'Port-adjacent location',
-      'Cross-docking capabilities',
-      'Bonded warehouse',
-      'Container storage',
-      'LTL/FTL consolidation'
+      'Ubicación adyacente al puerto',
+      'Capacidades de cross-docking',
+      'Almacén bajo fianza',
+      'Almacenamiento de contenedores',
+      'Consolidación LTL/FTL'
     ],
     certifications: ['C-TPAT', 'ISO 9001', 'FDA Registered']
   },
@@ -78,11 +78,11 @@ const facilities = [
     manager: 'David Rodriguez',
     hours: 'Mon-Fri: 7:00 AM - 8:00 PM, Sat: 8:00 AM - 4:00 PM',
     features: [
-      'E-commerce fulfillment',
-      'Kitting and assembly',
-      'Returns processing',
-      'Same-day shipping',
-      'Multi-client operations'
+      'Cumplimiento de comercio electrónico',
+      'Kitting y ensamblaje',
+      'Procesamiento de devoluciones',
+      'Envío el mismo día',
+      'Operaciones multi-cliente'
     ],
     certifications: ['ISO 9001', 'ISTA Certified', 'TSA Approved']
   },
@@ -101,11 +101,11 @@ const facilities = [
     manager: 'Jennifer Martinez',
     hours: 'Mon-Fri: 6:00 AM - 6:00 PM',
     features: [
-      'Precision manufacturing',
-      'Quality control lab',
-      'Assembly lines',
-      'Prototype development',
-      'Tool & die shop'
+      'Fabricación de precisión',
+      'Laboratorio de control de calidad',
+      'Líneas de ensamblaje',
+      'Desarrollo de prototipos',
+      'Taller de herramientas y matrices'
     ],
     certifications: ['ISO 9001', 'AS9100', 'ITAR Registered']
   },
@@ -124,11 +124,11 @@ const facilities = [
     manager: 'Robert Anderson',
     hours: '24/7 Operations',
     features: [
-      'Temperature zones: -20°F to 60°F',
-      'HACCP compliant',
-      'Blast freezing',
-      'Food-grade facility',
-      'Lot tracking systems'
+      'Zonas de temperatura: -20°F a 60°F',
+      'Conforme con HACCP',
+      'Congelación rápida',
+      'Instalación apta para alimentos',
+      'Sistemas de seguimiento de lotes'
     ],
     certifications: ['FSMA', 'SQF Level 3', 'FDA Registered']
   },
@@ -147,11 +147,11 @@ const facilities = [
     manager: 'Amanda Williams',
     hours: 'Mon-Sun: 5:00 AM - 11:00 PM',
     features: [
-      'Strategic location',
+      'Ubicación estratégica',
       'Cross-docking',
-      'Regional distribution',
-      'Parcel integration',
-      'Transloading services'
+      'Distribución regional',
+      'Integración de paquetes',
+      'Servicios de transbordo'
     ],
     certifications: ['ISO 9001', 'C-TPAT', 'OSHA Compliant']
   }
@@ -163,47 +163,47 @@ const facilityStandards = [
       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
     </svg>`,
     title: 'Seguridad',
-    description: '24/7 surveillance, access control, and security personnel at all locations',
+    description: 'Vigilancia 24/7, control de acceso y personal de seguridad en todas las ubicaciones',
     color: 'from-red-500 to-red-600'
   },
   {
     icon: `<svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
     </svg>`,
-    title: 'Quality Control',
-    description: 'Rigorous inspection processes and quality management systems',
+    title: 'Control de Calidad',
+    description: 'Procesos de inspección rigurosos y sistemas de gestión de calidad',
     color: 'from-teal-500 to-teal-600'
   },
   {
     icon: `<svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
     </svg>`,
-    title: 'Efficiency',
-    description: 'Optimized layouts and automated systems for maximum throughput',
+    title: 'Eficiencia',
+    description: 'Diseños optimizados y sistemas automatizados para máximo rendimiento',
     color: 'from-amber-500 to-amber-600'
   },
   {
     icon: `<svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
     </svg>`,
-    title: 'Sustainability',
-    description: 'Energy-efficient operations and environmental management programs',
+    title: 'Sostenibilidad',
+    description: 'Operaciones eficientes en energía y programas de gestión ambiental',
     color: 'from-green-500 to-green-600'
   },
   {
     icon: `<svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
     </svg>`,
-    title: 'Technology',
-    description: 'Real-time tracking, WMS, and automated reporting systems',
+    title: 'Tecnología',
+    description: 'Seguimiento en tiempo real, WMS y sistemas de informes automatizados',
     color: 'from-purple-500 to-purple-600'
   },
   {
     icon: `<svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
     </svg>`,
-    title: 'Expert Team',
-    description: 'Trained professionals dedicated to operational excellence',
+    title: 'Equipo Experto',
+    description: 'Profesionales capacitados dedicados a la excelencia operativa',
     color: 'from-pink-500 to-pink-600'
   }
 ];
@@ -311,7 +311,7 @@ const facilityStandards = [
                   <svg class="w-4 h-4 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                   </svg>
-                  Key Features
+                  Características Principales
                 </h4>
                 <ul class="grid grid-cols-1 gap-2.5">
                   {facility.features.map((feature) => (
@@ -392,13 +392,13 @@ const facilityStandards = [
   <Section background="gradient">
     <div class="text-center mb-16">
       <div class="inline-block px-4 py-2 mb-4 bg-white/80 backdrop-blur-sm text-primary-800 text-sm font-semibold rounded-full border border-primary-200">
-        Our Standards
+        Nuestros Estándares
       </div>
       <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-        Facility <span class="gradient-text">Standards</span>
+        Estándares de <span class="gradient-text">Instalaciones</span>
       </h2>
       <p class="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-        Every facility meets our rigorous standards for safety, security, and operational excellence.
+        Cada instalación cumple con nuestros rigurosos estándares de seguridad, protección y excelencia operativa.
       </p>
     </div>
 
@@ -431,21 +431,21 @@ const facilityStandards = [
     <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
       <div class="max-w-4xl mx-auto text-center text-white">
         <div class="inline-block px-4 py-2 mb-6 bg-white/10 backdrop-blur-sm text-white text-sm font-semibold rounded-full">
-          Get Started Today
+          Comienza Hoy
         </div>
         <h2 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-          Ready to Visit Our <span class="text-transparent bg-clip-text bg-linear-to-r from-red-400 to-teal-400">Facilities</span>?
+          ¿Listo para Visitar Nuestras <span class="text-transparent bg-clip-text bg-linear-to-r from-red-400 to-teal-400">Instalaciones</span>?
         </h2>
         <p class="text-xl md:text-2xl text-slate-200 mb-12 max-w-2xl mx-auto leading-relaxed">
-          Schedule a tour to see our operations firsthand and discuss how we can meet your needs.
+          Programa un recorrido para ver nuestras operaciones de primera mano y discutir cómo podemos satisfacer tus necesidades.
         </p>
         
         <div class="flex flex-col sm:flex-row gap-6 justify-center">
           <Button href="/rfq" size="lg" class="bg-red-600! hover:bg-red-700! text-white! shadow-2xl!">
-            Request a Quote
+            Solicitar Cotización
           </Button>
           <Button href="/capabilities" size="lg" variant="outline" class="border-2! border-white! text-white! hover:bg-white/10! shadow-2xl!">
-            View Capabilities
+            Ver Capacidades
           </Button>
         </div>
       </div>
