@@ -260,7 +260,7 @@ export default function RFQForm() {
               name="details"
               rows={6}
               required
-              placeholder="Por favor proporcione detalles sobre sus requisitos, incluyendo especificaciones del producto, necesidades de almacenamiento, destinos de envío, u otra información relevante..."
+              placeholder="Por favor, proporcione detalles técnicos de su proyecto, tales como: dimensiones estimadas de la nave (m²), altura libre requerida, capacidad de carga de suelo, necesidad de grandes luces (sin columnas) o requerimientos para puentes grúa. Esta información nos permitirá asignarle al especialista adecuado..."
               className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent transition resize-none"
             />
           </div>
@@ -271,7 +271,7 @@ export default function RFQForm() {
       <div className="pt-6">
         <button
           type="submit"
-          className="w-full bg-linear-to-r from-red-600 to-teal-600 text-white px-8 py-4 rounded-lg font-semibold text-lg shadow-lg hover:from-red-700 hover:to-teal-700 transition-all duration-200 hover:shadow-xl active:scale-95 flex items-center justify-center space-x-2"
+          className="w-full bg-linear-to-r from-red-600 to-red-800 text-white px-8 py-4 rounded-lg font-semibold text-lg shadow-lg hover:from-red-500 hover:to-red-600 transition-all duration-200 hover:shadow-xl active:scale-95 flex items-center justify-center space-x-2"
         >
           <span>Enviar Solicitud</span>
           <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
