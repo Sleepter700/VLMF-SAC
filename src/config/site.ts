@@ -8,9 +8,9 @@ export const SITE = {
 
 export const NAVIGATION = [
   { name: 'Inicio', href: '/' },
-  { name: 'Metodología', href: '/capabilities' },
-  { name: 'Soluciones', href: '/use-cases' },
-  { name: 'Resultados', href: '/facilities' },
+  //{ name: 'Metodología', href: '/capabilities' },
+  //{ name: 'Soluciones', href: '/use-cases' },
+  //{ name: 'Resultados', href: '/facilities' },
   { name: 'Presupuesto', href: '/rfq' },
   //{ name: 'Recursos', href: '/documentation' },
 ] as const;
