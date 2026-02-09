@@ -3,19 +3,30 @@ import * as Checkbox from '@radix-ui/react-checkbox';
 import { Check, User, Building2, Briefcase, Warehouse, Factory, Truck, Network, Wrench, Cpu, Calendar, Package } from 'lucide-react';
 
 export default function RFQForm() {
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    
+
     const form = e.currentTarget;
     const formData = new FormData(form);
-    const data = Object.fromEntries(formData.entries());
-    
-    // In a real application, you would send this to your backend
-    console.log('Form submitted:', data);
-    
-    // Show success message
-    alert('¡Gracias por su solicitud! Nos pondremos en contacto con usted dentro de 24 horas.');
-    form.reset();
+
+    try {
+      const response = await fetch('/process-rfq.php', {
+        method: 'POST',
+        body: formData,
+      });
+
+      const result = await response.json();
+
+      if (result.success) {
+        alert(result.message);
+        form.reset();
+      } else {
+        alert('Error: ' + (result.message || 'Unknown error'));
+      }
+    } catch (error) {
+      console.error('Error submitting form:', error);
+      alert('Error al enviar el formulario. Por favor, inténtelo de nuevo.');
+    }
   };
 
   return (
