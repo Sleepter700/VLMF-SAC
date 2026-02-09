@@ -1,8 +1,10 @@
+import type { Instagram } from "lucide-react";
+
 // Site configuration
 export const SITE = {
   title: 'VLM&F Asociados SAC',
   description: 'INGENIERIA DE PRESICIÓN Y SOLUCIONES INDUSTRIALES',
-  url: 'https://sleepter700.github.io',
+  url: 'https://vlmf.com.pe/',
   author: 'VLM&F Asociados SAC',
 } as const;
 
@@ -17,8 +19,8 @@ export const NAVIGATION = [
 ] as const;
 
 export const SOCIAL_LINKS = {
-  linkedin: 'https://linkedin.com/company/yourcompany',
-  twitter: 'https://twitter.com/yourcompany',
-  facebook: 'https://facebook.com/yourcompany',
+  linkedin: '/',
+  Instagram: '/',
+  facebook: '/',
 } as const;
 
