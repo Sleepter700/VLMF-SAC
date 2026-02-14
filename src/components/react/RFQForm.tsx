@@ -8,24 +8,28 @@ export default function RFQForm() {
 
     const form = e.currentTarget;
     const formData = new FormData(form);
+    
+    const data = Object.fromEntries(formData.entries());
 
     try {
-      const response = await fetch('/process-rfq.php', {
+      const response = await fetch('https://formspree.io/f/xkovrwvp', {
         method: 'POST',
-        body: formData,
+        headers: {
+          'Content-Type': 'application/json',
+          'Accept': 'application/json'
+        },
+        body: JSON.stringify(data),
       });
 
-      const result = await response.json();
-
-      if (result.success) {
-        alert(result.message);
+      if (response.ok) {
+        alert('¡Solicitud enviada con éxito! Nos comunicaremos pronto.');
         form.reset();
       } else {
-        alert('Error: ' + (result.message || 'Unknown error'));
+        alert('Error al enviar. Por favor, intente de nuevo o verifique el correo.');
       }
     } catch (error) {
       console.error('Error submitting form:', error);
-      alert('Error al enviar el formulario. Por favor, inténtelo de nuevo.');
+      alert('Error de conexión. Por favor, inténtelo de nuevo.');
     }
   };
 
